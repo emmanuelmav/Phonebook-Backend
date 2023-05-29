@@ -3,3 +3,7 @@ This is a simple phonebook application where users can add phone numbers and nam
 
 # LIVE DEMO
 Here is the link to the live demo of the application hosted on Render https://phonebook-backend-lfg1.onrender.com/
+
+# Technologies Used
+ - React for the user interface
+ - Node.js and Express for the server-side functionality
