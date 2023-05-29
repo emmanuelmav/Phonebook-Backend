@@ -1,0 +1,16 @@
+# GET ALL RESSOURCES
+GET http://localhost:3001/api/persons
+
+# CREATE NEW RESSOURCE
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "James Bond",
+    "number": "39-s4-6363523"
+}
+
+# DELETE RESSOURCE BY ID
+###
+DELETE http://localhost:3001/api/persons/164
