@@ -16,6 +16,11 @@ of the request object before
 the route handler is called.
 */
 
+// morgan logs changes to the application
+
+// cors allows same orgin policy
+
+app.use(express.static('dist'))
 
 app.use(express.json())
 morgan.token('body', function (req, res) { return JSON.stringify(req.body) })
