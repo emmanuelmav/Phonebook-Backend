@@ -101,7 +101,7 @@ app.get("/info", (req, res) => {
 })
 
 
-app.listen(3001, () => {
-    console.log('LISTENING ON PORT 3001...');
+app.listen(PORT, () => {
+    console.log(`LISTENING ON PORT ${PORT}...`);
 })
 
